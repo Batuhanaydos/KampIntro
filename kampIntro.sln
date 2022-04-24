@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{FCDEF7F8-A41D-4089-93AA-1A5EA8A5F55A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictonary", "Dictonary\Dictonary.csproj", "{C92BDAD2-8849-47D6-A4E2-9F17AEC5FB60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{FCDEF7F8-A41D-4089-93AA-1A5EA8A5F55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCDEF7F8-A41D-4089-93AA-1A5EA8A5F55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCDEF7F8-A41D-4089-93AA-1A5EA8A5F55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92BDAD2-8849-47D6-A4E2-9F17AEC5FB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92BDAD2-8849-47D6-A4E2-9F17AEC5FB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92BDAD2-8849-47D6-A4E2-9F17AEC5FB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92BDAD2-8849-47D6-A4E2-9F17AEC5FB60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
