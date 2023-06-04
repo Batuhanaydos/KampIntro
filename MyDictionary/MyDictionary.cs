@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GenericsIntro
+namespace MyDictionary
 {
-    class MyList<T>
+    class MyDictionary<T>
     {
         T[] items;
-        public MyList()
+
+        public MyDictionary()
         {
             items = new T[0];
         }
         public void Add(T item)
         {
             T[] tempArray = items;
-            items = new T[items.Length+1];
+            items = new T[items.Length + 1];
             for (int i = 0; i < tempArray.Length; i++)
             {
                 items[i] = tempArray[i];
@@ -23,10 +24,10 @@ namespace GenericsIntro
             items[items.Length - 1] = item;
 
         }
-
         public int Length
         {
             get { return items.Length; }
         }
+
     }
 }
